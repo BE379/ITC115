@@ -41,4 +41,10 @@ public abstract class LibraryItems {
 	public int getItemNumber() {
 		return ItemNumber;
 	}
+	
+	public void printSummary() {
+		System.out.println("Item number: " + ItemNumber);
+		System.out.println("Title: " + Title);
+		System.out.println("");
+	}
 }

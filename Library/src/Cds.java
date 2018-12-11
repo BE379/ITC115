@@ -11,4 +11,12 @@ public class Cds extends LibraryItems{
 		System.out.println(Musician + " created " + getTitle());
 		System.out.println("");
 	}
+	
+	@Override
+	public void printSummary() {
+		System.out.println("Item number: " + getItemNumber());
+		System.out.println("Title: " + getTitle());
+		System.out.println("Musician: " + Musician);
+		System.out.println("");
+	}
 }

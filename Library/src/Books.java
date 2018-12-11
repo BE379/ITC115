@@ -12,5 +12,14 @@ public class Books extends LibraryItems {
 		System.out.println("The author of " + getTitle() + " is " + Author + ".");
 		System.out.println("");
 	}
+	
+	@Override
+	public void printSummary() {
+		System.out.println("Item number: " + getItemNumber());
+		System.out.println("Title: " + getTitle());
+		System.out.println("Author: " + Author);
+		System.out.println("");
+	}
+	
 
 }

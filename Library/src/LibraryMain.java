@@ -17,6 +17,9 @@ public class LibraryMain {
 		magazine1.currentMagazine();
 		book1.whoIsAuthor();
 		cd1.nameMusician();
+		cd1.printSummary();
+		book1.printSummary();
+		magazine1.printSummary();
 
 	}
 
